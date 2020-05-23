@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <title>Error＿Stocker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Error＿Stocker</h1>
+        <div id="add_btn">
+            <p>add</p>
+        </div>
+        <div id="up" class="hidden">
+          <p>ワードを入れよう</p>
+          <input type="text" id="inputTask" placeholder="your task..." autocomplete="off">
+            <button onclick="addTask()">追加</button>
+            <p>カテゴリを選択しよう</p>
+            <label for="product">Category</label>
+            <select name="Category" id="product">
+                <option>Programming</option>
+                <option>English</option>
+                <option>Works</option>
+            </select>
+            <ul id="taskList"></ul>
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>

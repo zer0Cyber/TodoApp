@@ -1,0 +1,84 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    background-color: black;
+    color: #fff;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.hidden {
+    display: none;
+}
+
+.container {
+   width: 70%;
+   margin: 0 auto;
+   background-color: black;
+   /* position: relative; */
+}
+
+h1 {
+    color: red;
+    fo
+}
+
+input {
+    border-radius: 4px;
+    margin-left: 10px;
+}
+
+ul {
+    list-style: none;
+    line-height: 20px;
+}
+
+li {
+    /* border: 1px solid #fff; */
+    line-height: 20px;
+    width: 300px;
+}
+
+.done-task {
+    color: lightgray;
+}
+
+#taskList button {
+    margin-left: 16px;
+}
+
+
+#add_btn {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: red;
+    box-sizing: border-box;
+    float: right;
+    margin-left: auto;
+    cursor: pointer;
+}   
+
+#add_btn p {
+    text-align: center;
+    color: #fff;
+}
+
+@media (min-width: 570px){
+    body {
+        background: #000;
+        }
+}
+
+@media (min-width: 912px){
+    body {
+        background: #000;
+    }
+}
+
+
+
+
+/* 気づいたこと、学んだこと */
+/* cssの知識が深まった（写経だけでは得られないもの）
+特にCSSは書かなきゃ身につかない気がする！ */
